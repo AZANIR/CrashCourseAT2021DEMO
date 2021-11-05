@@ -15,7 +15,7 @@ namespace DemoTestProject
         public string Url = "https://demo23.opencart.pro/";
 
         [OneTimeSetUp]
-        public void BeforeAllMethods() => _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+        public void BeforeAllMethods() => _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(3);
 
         [SetUp]
         public void Setup()
