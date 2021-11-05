@@ -7,28 +7,25 @@ using OpenQA.Selenium.Firefox;
 
 namespace DemoTestProject
 {
-    [TestFixture(typeof(FirefoxDriver))]
-    [TestFixture(typeof(ChromeDriver))]
-    public class Tests<TWebDriver> where TWebDriver : IWebDriver, new()
+    public class SearchTest : DriverHelper
     {
-        private readonly IWebDriver _driver = new TWebDriver();
-        public string Url = "https://demo23.opencart.pro/";
-
-        [OneTimeSetUp]
-        public void BeforeAllMethods() => _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(3);
-
+        public static string Url = "https://demo23.opencart.pro/";
         [SetUp]
         public void Setup()
         {
-            _driver.Manage().Window.Maximize();
-            _driver.Navigate().GoToUrl(Url);
+            ChromeOptions option = new ChromeOptions();
+            option.AddArguments("--headless");
+            Driver = new ChromeDriver(option);
+            Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(2);
+            Driver.Manage().Window.Maximize();
+            Driver.Navigate().GoToUrl(Url);
         }
 
         [Test]
         [TestCase("iPhone")]
         public void Test1(string searchWord)
         {
-            var basePageObject = new BasePageObject(_driver);
+            var basePageObject = new BasePageObject(Driver);
             Assert.AreEqual(basePageObject.IsElementDisplayed(_inputSearch), true,"Input search is not displayed");
             basePageObject.SetValue(_inputSearch, searchWord);
             basePageObject.ClickElement(_searchBtn);
@@ -36,7 +33,7 @@ namespace DemoTestProject
         }
 
         [OneTimeTearDown]
-        public void AfterAllMethods() => _driver.Quit();
+        public void AfterAllMethods() => Driver.Quit();
 
         private readonly By _inputSearch = By.XPath("//input[@name='search']");
         private readonly By _searchBtn = By.CssSelector("#search button");
