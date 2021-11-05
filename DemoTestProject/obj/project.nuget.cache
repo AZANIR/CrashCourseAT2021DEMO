@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "IbcfNboo73zzRWkmahsc4wdiI50YaVuvnVUhz/IOawi37kOtV7aWNUduREfPbNqxjTyoJVPSv6FZhLA6sSaAyA==",
+  "success": true,
+  "projectFilePath": "d:\\QA_Automation\\CrashCourseAT2021DEMO\\DemoTestProject\\DemoTestProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AZANIR\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
+    "C:\\Users\\AZANIR\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
+    "C:\\Users\\AZANIR\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
+    "C:\\Users\\AZANIR\\.nuget\\packages\\nunit3testadapter\\3.16.1\\nunit3testadapter.3.16.1.nupkg.sha512",
+    "C:\\Users\\AZANIR\\.nuget\\packages\\selenium.webdriver\\4.0.1\\selenium.webdriver.4.0.1.nupkg.sha512",
+    "C:\\Users\\AZANIR\\.nuget\\packages\\selenium.webdriver.chromedriver\\95.0.4638.5400\\selenium.webdriver.chromedriver.95.0.4638.5400.nupkg.sha512",
+    "C:\\Users\\AZANIR\\.nuget\\packages\\selenium.webdriver.geckodriver\\0.30.0\\selenium.webdriver.geckodriver.0.30.0.nupkg.sha512"
+  ],
+  "logs": []
+}
