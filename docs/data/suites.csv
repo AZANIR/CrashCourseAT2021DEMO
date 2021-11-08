@@ -1,5 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Mon Nov 08 19:23:40 UTC 2021","Mon Nov 08 19:23:45 UTC 2021","4397","","PassedSuite","Simple SearchTest","CrashCourse2021.SimpleSearchTest","SearchDefault","SearchDefault","Search defaults
+"passed","Mon Nov 08 19:26:22 UTC 2021","Mon Nov 08 19:26:25 UTC 2021","2787","","PassedSuite","Simple SearchTest","CrashCourse2021.SimpleSearchTest","SearchDefault","SearchDefault","Search defaults
 "
-"failed","Mon Nov 08 19:23:45 UTC 2021","Mon Nov 08 19:23:45 UTC 2021","420","","PassedSuite","Simple SearchTest","CrashCourse2021.SimpleSearchTest","SearchExecute","SearchExecute","Search execute
+"passed","Mon Nov 08 19:26:25 UTC 2021","Mon Nov 08 19:26:26 UTC 2021","1459","","PassedSuite","Simple SearchTest","CrashCourse2021.SimpleSearchTest","SearchExecute","SearchExecute","Search execute
 "

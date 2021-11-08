@@ -1,41 +1,39 @@
 {
   "CrashCourse2021.SimpleSearchTest.SearchDefault" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6481c29812200f4a",
-      "status" : "failed",
-      "statusDetails" : "OpenQA.Selenium.WebDriverException : unknown error: Chrome failed to start: crashed.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+      "uid" : "904c72814fcddd85",
+      "status" : "passed",
       "time" : {
-        "start" : 1636399420736,
-        "stop" : 1636399425133,
-        "duration" : 4397
+        "start" : 1636399582573,
+        "stop" : 1636399585360,
+        "duration" : 2787
       }
     } ]
   },
   "CrashCourse2021.SimpleSearchTest.SearchExecute" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "91d09298bf8a3bd1",
-      "status" : "failed",
-      "statusDetails" : "OpenQA.Selenium.WebDriverException : unknown error: Chrome failed to start: crashed.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+      "uid" : "c120015ad7ed9fe1",
+      "status" : "passed",
       "time" : {
-        "start" : 1636399425187,
-        "stop" : 1636399425607,
-        "duration" : 420
+        "start" : 1636399585419,
+        "stop" : 1636399586878,
+        "duration" : 1459
       }
     } ]
   }
