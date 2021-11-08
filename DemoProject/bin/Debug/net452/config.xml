@@ -2,7 +2,7 @@
 
 <config>
   <!-- Specify absolute path, otherwise it will be relative to current directory which can lead to unpredictable results -->
-  <results-path>allure-aesults</results-path>
+  <results-path>allure-results</results-path>
   <write-output-to-attachment>true</write-output-to-attachment>
   <take-screenshots-after-failed-tests>true</take-screenshots-after-failed-tests>
 </config>

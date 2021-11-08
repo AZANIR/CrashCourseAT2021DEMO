@@ -13,12 +13,13 @@ namespace RvCrashCourse2021
     [AllureNUnit]
     [TestFixture]
     [AllureSubSuite("AllureReportTypeSamples")]
+    [AllureLink("https://github.com/unickq/allure-nunit")]
     class Browsers
     {
 
         [Test(Description = "Firefox1")]
         [AllureTag("TC-1")]
-        [AllureIssue("ISSUE-1")]
+        [AllureIssue("GitHub#1", "https://github.com/unickq/allure-nunit")]
         [AllureTms("TMS-12")]
         [AllureOwner("unickq")]
         [AllureSuite("PassedSuite")]

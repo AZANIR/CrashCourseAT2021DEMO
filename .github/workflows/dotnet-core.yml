@@ -26,19 +26,7 @@ jobs:
     - name: Create Report
       if: always()
       # trying to save history of previous runs if it is exists
-      run: allure generate allure-results --clean
-    - name: Create bacup directory
-      if: always()
-      # trying to create backup directory
-      run: mkdir allure-report/backupHistory 
-    - name: Backup history tests
-      if: always()
-      # trying to backup screens and info test
-      run: cp -r $(pwd)/allure-results/*.* $(pwd)/allure-report/backupHistory
-    - name: Display structure of backup history files
-      if: always()
-      run: ls -R
-      working-directory: allure-report/backupHistory
+      run: allure-cmd/bin/allure generate allure-results --clean
     - name: Upload artifact allure-report
       uses: actions/upload-artifact@v1
       if: always()
