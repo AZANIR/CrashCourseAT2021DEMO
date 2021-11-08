@@ -1,0 +1,84 @@
+{
+  "uuid": "1d4cd6e4-e806-4328-b8da-d83bbe71b17f-tr-0-1002",
+  "historyId": "CrashCourse2021.SimpleSearchTest.SearchExecute",
+  "fullName": "CrashCourse2021.SimpleSearchTest.SearchExecute",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az129-502"
+    },
+    {
+      "name": "testClass",
+      "value": "CrashCourse2021.SimpleSearchTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "SearchExecute"
+    },
+    {
+      "name": "package",
+      "value": "CrashCourse2021.SimpleSearchTest"
+    },
+    {
+      "name": "tag",
+      "value": "TC-2"
+    },
+    {
+      "name": "owner",
+      "value": "Leonid M"
+    },
+    {
+      "name": "suite",
+      "value": "PassedSuite"
+    },
+    {
+      "name": "subSuite",
+      "value": "Simple"
+    },
+    {
+      "name": "subSuite",
+      "value": "Simple SearchTest"
+    }
+  ],
+  "links": [],
+  "name": "SearchExecute",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "Search execute\n",
+  "steps": [
+    {
+      "name": "SearchExecute",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bb195d49d352433aba9482a5bbf14936-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1636404093600,
+      "stop": 1636404095065
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1636404093600,
+  "stop": 1636404095065
+}
