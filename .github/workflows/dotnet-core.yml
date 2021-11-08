@@ -16,10 +16,40 @@ jobs:
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '3.1.x'
+        dotnet-version: '4.5.x'
     - name: Install dependencies 
       run: dotnet restore
     - name: Build
       run: dotnet build --configuration Release --no-restore
     - name: Test
       run: dotnet test --no-restore --verbosity normal
+    - name: Create Report
+      if: always()
+      # trying to save history of previous runs if it is exists
+      run: allure-cmd/bin/allure generate allure-results --clean
+    - name: Create bacup directory
+      if: always()
+      # trying to create backup directory
+      run: mkdir allure-report/backupHistory 
+    - name: Backup history tests
+      if: always()
+      # trying to backup screens and info test
+      run: cp -r $(pwd)/allure-results/*.* $(pwd)/allure-report/backupHistory
+    - name: Display structure of backup history files
+      if: always()
+      run: ls -R
+      working-directory: allure-report/backupHistory
+    - name: Upload artifact allure-report
+      uses: actions/upload-artifact@v1
+      if: always()
+      with:
+        name: allure-report
+        path: ./allure-report
+    - name: Deploy report
+      uses: JamesIves/github-pages-deploy-action@3.1.0
+      if: always()
+      with:
+        ACCESS_TOKEN: ${{'secrets.ACCESS_TOKEN'}}
+        BRANCH: master # The branch the action should deploy to.
+        FOLDER: allure-report # The folder the action should deploy.
+        TARGET_FOLDER: docs
