@@ -1,22 +1,35 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
-    "name" : "RvCrashCourse2021.Browsers",
+    "name" : "RvCrashCourse2021.SimpleSearchTest",
     "children" : [ {
-      "name" : "Firefox1",
-      "uid" : "a56beab82e405062",
-      "parentUid" : "c0085b362451e0c55f31c89a9de0c453",
+      "name" : "SearchDefault",
+      "uid" : "5c4a4be86a60ed3",
+      "parentUid" : "8c17361c3ebf07efa2ecfb675ed733a7",
       "status" : "passed",
       "time" : {
-        "start" : 1636383496278,
-        "stop" : 1636383505028,
-        "duration" : 8750
+        "start" : 1636387088299,
+        "stop" : 1636387096421,
+        "duration" : 8122
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "SearchExecute",
+      "uid" : "e566c8ae1d67498f",
+      "parentUid" : "8c17361c3ebf07efa2ecfb675ed733a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636387096487,
+        "stop" : 1636387099165,
+        "duration" : 2678
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "RvCrashCourse2021.Browsers"
+    "uid" : "RvCrashCourse2021.SimpleSearchTest"
   } ],
   "name" : "packages"
 }

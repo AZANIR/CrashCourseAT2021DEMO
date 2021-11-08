@@ -1,3 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Nov 08 14:58:16 UTC 2021","Mon Nov 08 14:58:25 UTC 2021","8750","","PassedSuite","AllureReportTypeSamples","RvCrashCourse2021.Browsers","Firefox1","Firefox1","Firefox1
+"passed","Mon Nov 08 15:58:08 UTC 2021","Mon Nov 08 15:58:16 UTC 2021","8122","","PassedSuite","Simple SearchTest","RvCrashCourse2021.SimpleSearchTest","SearchDefault","SearchDefault","Search defaults
+"
+"passed","Mon Nov 08 15:58:16 UTC 2021","Mon Nov 08 15:58:19 UTC 2021","2678","","PassedSuite","Simple SearchTest","RvCrashCourse2021.SimpleSearchTest","SearchExecute","SearchExecute","Search execute
 "

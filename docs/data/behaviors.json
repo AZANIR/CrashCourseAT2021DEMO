@@ -1,14 +1,27 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
-    "name" : "Firefox1",
-    "uid" : "a56beab82e405062",
+    "name" : "SearchDefault",
+    "uid" : "5c4a4be86a60ed3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1636383496278,
-      "stop" : 1636383505028,
-      "duration" : 8750
+      "start" : 1636387088299,
+      "stop" : 1636387096421,
+      "duration" : 8122
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "SearchExecute",
+    "uid" : "e566c8ae1d67498f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1636387096487,
+      "stop" : 1636387099165,
+      "duration" : 2678
     },
     "flaky" : false,
     "newFailed" : false,
