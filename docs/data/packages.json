@@ -4,26 +4,26 @@
     "name" : "CrashCourse2021.SimpleSearchTest",
     "children" : [ {
       "name" : "SearchDefault",
-      "uid" : "385db4366c46aea0",
+      "uid" : "45bf5dea1bc976fd",
       "parentUid" : "bc89afd80e23cc1cc80d267153f0ae4c",
       "status" : "passed",
       "time" : {
-        "start" : 1636404491422,
-        "stop" : 1636404494040,
-        "duration" : 2618
+        "start" : 1636404780513,
+        "stop" : 1636404786636,
+        "duration" : 6123
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "SearchExecute",
-      "uid" : "88ec699c4ed31318",
+      "uid" : "200c7b5921942705",
       "parentUid" : "bc89afd80e23cc1cc80d267153f0ae4c",
       "status" : "passed",
       "time" : {
-        "start" : 1636404494086,
-        "stop" : 1636404495357,
-        "duration" : 1271
+        "start" : 1636404786703,
+        "stop" : 1636404788210,
+        "duration" : 1507
       },
       "flaky" : false,
       "newFailed" : false,
