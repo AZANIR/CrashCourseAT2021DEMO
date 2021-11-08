@@ -1,5 +1,7 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Nov 08 15:58:08 UTC 2021","Mon Nov 08 15:58:16 UTC 2021","8122","","PassedSuite","Simple SearchTest","RvCrashCourse2021.SimpleSearchTest","SearchDefault","SearchDefault","Search defaults
+"passed","Mon Nov 08 17:14:09 UTC 2021","Mon Nov 08 17:14:09 UTC 2021","818","","PassedSuite","Simple Auth test","DemoProject.Tests.TestsAPI.AuthTest","VerifyItems","VerifyItems","Simple Auth
 "
-"passed","Mon Nov 08 15:58:16 UTC 2021","Mon Nov 08 15:58:19 UTC 2021","2678","","PassedSuite","Simple SearchTest","RvCrashCourse2021.SimpleSearchTest","SearchExecute","SearchExecute","Search execute
+"passed","Mon Nov 08 17:14:09 UTC 2021","Mon Nov 08 17:14:16 UTC 2021","6385","","PassedSuite","Simple SearchTest","RvCrashCourse2021.SimpleSearchTest","SearchDefault","SearchDefault","Search defaults
+"
+"passed","Mon Nov 08 17:14:16 UTC 2021","Mon Nov 08 17:14:18 UTC 2021","2323","","PassedSuite","Simple SearchTest","RvCrashCourse2021.SimpleSearchTest","SearchExecute","SearchExecute","Search execute
 "

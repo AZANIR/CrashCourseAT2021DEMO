@@ -1,29 +1,46 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
+    "name" : "DemoProject.Tests.TestsAPI.AuthTest",
+    "children" : [ {
+      "name" : "VerifyItems",
+      "uid" : "6df71bacbe66d89",
+      "parentUid" : "7f014913d022c32993ecc56418c4439b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636391649041,
+        "stop" : 1636391649859,
+        "duration" : 818
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "DemoProject.Tests.TestsAPI.AuthTest"
+  }, {
     "name" : "RvCrashCourse2021.SimpleSearchTest",
     "children" : [ {
       "name" : "SearchDefault",
-      "uid" : "5c4a4be86a60ed3",
+      "uid" : "e8b9330484eba929",
       "parentUid" : "8c17361c3ebf07efa2ecfb675ed733a7",
       "status" : "passed",
       "time" : {
-        "start" : 1636387088299,
-        "stop" : 1636387096421,
-        "duration" : 8122
+        "start" : 1636391649936,
+        "stop" : 1636391656321,
+        "duration" : 6385
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "SearchExecute",
-      "uid" : "e566c8ae1d67498f",
+      "uid" : "d67fc9cae0a686bd",
       "parentUid" : "8c17361c3ebf07efa2ecfb675ed733a7",
       "status" : "passed",
       "time" : {
-        "start" : 1636387096487,
-        "stop" : 1636387099165,
-        "duration" : 2678
+        "start" : 1636391656322,
+        "stop" : 1636391658645,
+        "duration" : 2323
       },
       "flaky" : false,
       "newFailed" : false,

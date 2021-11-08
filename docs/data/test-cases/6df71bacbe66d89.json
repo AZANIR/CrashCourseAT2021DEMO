@@ -1,0 +1,97 @@
+{
+  "uid" : "6df71bacbe66d89",
+  "name" : "VerifyItems",
+  "fullName" : "DemoProject.Tests.TestsAPI.AuthTest.VerifyItems",
+  "historyId" : "DemoProject.Tests.TestsAPI.AuthTest.VerifyItems",
+  "time" : {
+    "start" : 1636391649041,
+    "stop" : 1636391649859,
+    "duration" : 818
+  },
+  "description" : "Simple Auth\n",
+  "descriptionHtml" : "<p>Simple Auth</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Simple Auth\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "VerifyItems",
+      "time" : {
+        "start" : 1636391649042,
+        "stop" : 1636391649855,
+        "duration" : 813
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c8c0f4d36fe8cc3e",
+        "name" : "Console Output",
+        "source" : "c8c0f4d36fe8cc3e.txt",
+        "type" : "text/plain",
+        "size" : 28
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az193-611"
+  }, {
+    "name" : "testClass",
+    "value" : "DemoProject.Tests.TestsAPI.AuthTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyItems"
+  }, {
+    "name" : "package",
+    "value" : "DemoProject.Tests.TestsAPI.AuthTest"
+  }, {
+    "name" : "tag",
+    "value" : "TC-5"
+  }, {
+    "name" : "owner",
+    "value" : "Leonid M"
+  }, {
+    "name" : "suite",
+    "value" : "PassedSuite"
+  }, {
+    "name" : "subSuite",
+    "value" : "API"
+  }, {
+    "name" : "subSuite",
+    "value" : "Simple Auth test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Leonid M",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "TC-5" ]
+  },
+  "source" : "6df71bacbe66d89.json",
+  "parameterValues" : [ ]
+}

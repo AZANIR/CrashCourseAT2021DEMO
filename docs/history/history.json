@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e566c8ae1d67498f",
+      "uid" : "d67fc9cae0a686bd",
       "status" : "passed",
       "time" : {
-        "start" : 1636387096487,
-        "stop" : 1636387099165,
-        "duration" : 2678
+        "start" : 1636391656322,
+        "stop" : 1636391658645,
+        "duration" : 2323
       }
     } ]
   },
@@ -28,12 +28,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5c4a4be86a60ed3",
+      "uid" : "e8b9330484eba929",
       "status" : "passed",
       "time" : {
-        "start" : 1636387088299,
-        "stop" : 1636387096421,
-        "duration" : 8122
+        "start" : 1636391649936,
+        "stop" : 1636391656321,
+        "duration" : 6385
+      }
+    } ]
+  },
+  "DemoProject.Tests.TestsAPI.AuthTest.VerifyItems" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6df71bacbe66d89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636391649041,
+        "stop" : 1636391649859,
+        "duration" : 818
       }
     } ]
   }
