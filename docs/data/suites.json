@@ -1,31 +1,32 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
     "name" : "PassedSuite",
     "children" : [ {
       "name" : "Simple",
       "children" : [ {
         "name" : "SearchDefault",
-        "uid" : "904c72814fcddd85",
+        "uid" : "54f720b95ea440a4",
         "parentUid" : "44704b3fa672c9659c6b922ea7e3ccb4",
         "status" : "passed",
         "time" : {
-          "start" : 1636399582573,
-          "stop" : 1636399585360,
-          "duration" : 2787
+          "start" : 1636399766054,
+          "stop" : 1636399774159,
+          "duration" : 8105
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "SearchExecute",
-        "uid" : "c120015ad7ed9fe1",
+        "uid" : "2422e79471e7db28",
         "parentUid" : "44704b3fa672c9659c6b922ea7e3ccb4",
         "status" : "passed",
         "time" : {
-          "start" : 1636399585419,
-          "stop" : 1636399586878,
-          "duration" : 1459
+          "start" : 1636399774223,
+          "stop" : 1636399775789,
+          "duration" : 1566
         },
         "flaky" : false,
         "newFailed" : false,
@@ -36,26 +37,26 @@
       "name" : "Simple SearchTest",
       "children" : [ {
         "name" : "SearchDefault",
-        "uid" : "904c72814fcddd85",
+        "uid" : "54f720b95ea440a4",
         "parentUid" : "b7727527094a0d4ee0b74c6f2d2b23b5",
         "status" : "passed",
         "time" : {
-          "start" : 1636399582573,
-          "stop" : 1636399585360,
-          "duration" : 2787
+          "start" : 1636399766054,
+          "stop" : 1636399774159,
+          "duration" : 8105
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "SearchExecute",
-        "uid" : "c120015ad7ed9fe1",
+        "uid" : "2422e79471e7db28",
         "parentUid" : "b7727527094a0d4ee0b74c6f2d2b23b5",
         "status" : "passed",
         "time" : {
-          "start" : 1636399585419,
-          "stop" : 1636399586878,
-          "duration" : 1459
+          "start" : 1636399774223,
+          "stop" : 1636399775789,
+          "duration" : 1566
         },
         "flaky" : false,
         "newFailed" : false,
@@ -64,6 +65,5 @@
       "uid" : "b7727527094a0d4ee0b74c6f2d2b23b5"
     } ],
     "uid" : "4eb2ccfc8ee6913e909217204b05ba10"
-  } ],
-  "name" : "suites"
+  } ]
 }
