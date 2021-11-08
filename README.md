@@ -8,3 +8,13 @@
 
 
 Demo project Crash Course .NET 2021
+
+if you want generate local report in web server
+```consol
+allure-cmd/bin/allure serve allure-results
+```
+
+if you want generate local report in html in allure-report
+```consol
+allure-cmd/bin/allure generate allure-results --clean
+```

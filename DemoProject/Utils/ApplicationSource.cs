@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DemoProject.Utils
+﻿namespace DemoProject.Utils
 {
     public class ApplicationSource
     {
@@ -14,11 +8,6 @@ namespace DemoProject.Utils
         // Implicit and Explicit Waits
         public long ImplicitWaitTimeOut { get; private set; }
         public long ExplicitTimeOut { get; private set; }
-
-        //Database Connection
-        public string DatabaseUrl { get; private set; }
-        public string DatabaseLogin { get; private set; }
-        public string DatabasePassword { get; private set; }
 
         // TODO Develop Builder
         public ApplicationSource(string browserName,

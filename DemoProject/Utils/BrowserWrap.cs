@@ -4,18 +4,13 @@ using OpenQA.Selenium.Firefox;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using OpenQA.Selenium.Remote;
 
 namespace DemoProject.Utils
 {
     public static class OptionsList
     {
-        public static ArrayList optionsList = new ArrayList() { "--no-proxy-server", "--start-maximized", "--disable-web-security",  "--ignore-certificate-errors", "--disable-extensions", "--no-sandbox", "--headless"};
+        public static ArrayList optionsList = new ArrayList() { "--start-maximized", "--disable-web-security", "--ignore-certificate-errors", "--headless"};
     }
    
     public interface IBrowser

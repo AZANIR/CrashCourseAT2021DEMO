@@ -1,0 +1,8 @@
+#VsStudio
+.vs
+#Allure
+.allure
+/*/allure-results/
+allure-results/
+/*/allure-report/
+allure-report/

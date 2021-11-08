@@ -1,22 +1,18 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
 using System.Threading;
-using Allure.Commons;
 using DemoProject.Utils;
 using NUnit.Allure.Attributes;
-using OpenQA.Selenium.Firefox;
 using NUnit.Allure.Core;
 
-namespace RvCrashCourse2021
+namespace CrashCourse2021
 {
     [AllureNUnit]
     [TestFixture]
     [AllureSubSuite("Simple SearchTest")]
     class SimpleSearchTest
     {
-
+        private readonly string _url = "https://demo.opencart.com/";
         [Test(Description = "Search defaults")]
         [AllureTag("TC-1")]
         [AllureOwner("Leonid M")]
@@ -24,13 +20,14 @@ namespace RvCrashCourse2021
         [AllureSubSuite("Simple")]
         public void SearchDefault()
         {
-            ApplicationSource applicationSource = new ApplicationSource(ApplicationSourceRepository.CHROME_TEMPORARY_WITHOUT_UI, 10L, 10L);
-            BrowserWrap driver = new BrowserWrap(applicationSource);
-            driver.ImplicitWaitSeconds(10);
-            driver.OpenUrl("https://demo.opencart.com/");
-            Assert.AreEqual(driver.IsElementDisplayed(_inputSearch), true, "Input search is not displayed");
-            Assert.AreEqual(driver.IsElementDisplayed(_searchBtn), true, "Search button is not displayed");
-            Thread.Sleep(1000);
+            //ApplicationSource aplicationsSpurce = new ApplicationSource(ApplicationSourceRepository.CHROME_TEMPORARY_WITHOUT_UI, 10L, 10L);
+            ApplicationSource aplicationsSpurce = new ApplicationSource(ApplicationSourceRepository.CHROME_TEMPORARY_WHITH_UI, 10L, 10L);
+            BrowserWrap _driver = new BrowserWrap(aplicationsSpurce);
+            _driver.OpenUrl(_url);
+            Assert.AreEqual(_driver.IsElementDisplayed(_searchInput), true, "Input search is not displayed");
+            Assert.AreEqual(_driver.IsElementDisplayed(_searchBtn), true, "Search button is not displayed");
+            //Thread.Sleep(1000);
+            _driver.Quit();
         }
 
         [Test(Description = "Search execute")]
@@ -40,18 +37,18 @@ namespace RvCrashCourse2021
         [AllureSubSuite("Simple")]
         public void SearchExecute()
         {
-            ApplicationSource applicationSource = new ApplicationSource(ApplicationSourceRepository.CHROME_TEMPORARY_WITHOUT_UI, 10L, 10L);
-            BrowserWrap driver = new BrowserWrap(applicationSource);
-            driver.ImplicitWaitSeconds(10);
-            driver.OpenUrl("https://demo.opencart.com/");
-            driver.FindElementByClassName(_inputSearch).SendKeys("iPhone");
-            driver.ClickElement(_searchBtn);
-            Thread.Sleep(1000);
-            Assert.AreEqual(driver.GetTextElement(_searchResult), "Search - iPhone", "Search result is not found");
-            driver.Quit();
+            //ApplicationSource aplicationsSpurce = new ApplicationSource(ApplicationSourceRepository.CHROME_TEMPORARY_WITHOUT_UI, 10L, 10L);
+            ApplicationSource aplicationsSpurce = new ApplicationSource(ApplicationSourceRepository.CHROME_TEMPORARY_WHITH_UI, 10L, 10L);
+            BrowserWrap _driver = new BrowserWrap(aplicationsSpurce);
+            _driver.OpenUrl(_url);
+            _driver.FindElementByClassName(_searchInput).SendKeys("iPhone");
+            _driver.ClickElement(_searchBtn);
+            //Thread.Sleep(1000);
+            Assert.AreEqual(_driver.GetTextElement(_searchResult), "Search - iPhone", "Search result is not found");
+            _driver.Quit();
         }
 
-        private readonly By _inputSearch = By.XPath("//input[@name='search']");
+        private readonly By _searchInput = By.XPath("//input[@name='search']");
         private readonly By _searchBtn = By.CssSelector("#search button");
         private readonly By _searchResult = By.XPath("//div[@id='content']/h1");
     }

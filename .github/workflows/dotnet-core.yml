@@ -35,10 +35,22 @@ jobs:
       run: dotnet build --configuration Release --no-restore
     - name: Test
       run: dotnet test --no-restore --verbosity normal
+    - name: Copy backupHistory
+      if: always()
+      # trying to save history screens and info of previous runs if it is exists
+      run: cp -r $(pwd)/docs/backupHistory/. $(pwd)/allure-results
     - name: Create Report
       if: always()
       # trying to save history of previous runs if it is exists
       run: npx allure generate ./DemoProject/allure-results --clean
+    - name: Create bacup directory
+      if: always()
+      # trying to create backup directory
+      run: mkdir allure-report/backupHistory 
+    - name: Backup history tests
+      if: always()
+      # trying to backup screens and info test
+      run: cp -r $(pwd)/allure-results/*.* $(pwd)/allure-report/backupHistory
     - name: Upload artifact allure-report
       uses: actions/upload-artifact@v1
       if: always()
