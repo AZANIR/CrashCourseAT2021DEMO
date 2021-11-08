@@ -1,0 +1,31 @@
+[ {
+  "uid" : "63a757002d28781a",
+  "name" : "SearchExecute",
+  "time" : {
+    "start" : 1636391857452,
+    "stop" : 1636391859873,
+    "duration" : 2421
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67d8c32fff53f76e",
+  "name" : "SearchDefault",
+  "time" : {
+    "start" : 1636391854669,
+    "stop" : 1636391857452,
+    "duration" : 2783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86a1b882da8f5fed",
+  "name" : "VerifyItems",
+  "time" : {
+    "start" : 1636391853570,
+    "stop" : 1636391854610,
+    "duration" : 1040
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,59 @@
+{
+  "RvCrashCourse2021.SimpleSearchTest.SearchExecute" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "63a757002d28781a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636391857452,
+        "stop" : 1636391859873,
+        "duration" : 2421
+      }
+    } ]
+  },
+  "RvCrashCourse2021.SimpleSearchTest.SearchDefault" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "67d8c32fff53f76e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636391854669,
+        "stop" : 1636391857452,
+        "duration" : 2783
+      }
+    } ]
+  },
+  "DemoProject.Tests.TestsAPI.AuthTest.VerifyItems" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "86a1b882da8f5fed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636391853570,
+        "stop" : 1636391854610,
+        "duration" : 1040
+      }
+    } ]
+  }
+}
