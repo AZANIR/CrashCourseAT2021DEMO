@@ -1,0 +1,97 @@
+{
+  "uid" : "c5e02d2944f94b14",
+  "name" : "SearchDefault",
+  "fullName" : "CrashCourse2021.SimpleSearchTest.SearchDefault",
+  "historyId" : "CrashCourse2021.SimpleSearchTest.SearchDefault",
+  "time" : {
+    "start" : 1636404090759,
+    "stop" : 1636404093544,
+    "duration" : 2785
+  },
+  "description" : "Search defaults\n",
+  "descriptionHtml" : "<p>Search defaults</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Search defaults\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "SearchDefault",
+      "time" : {
+        "start" : 1636404090761,
+        "stop" : 1636404093536,
+        "duration" : 2775
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "891e19e7bb066ec6",
+        "name" : "Console Output",
+        "source" : "891e19e7bb066ec6.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az129-502"
+  }, {
+    "name" : "testClass",
+    "value" : "CrashCourse2021.SimpleSearchTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "SearchDefault"
+  }, {
+    "name" : "package",
+    "value" : "CrashCourse2021.SimpleSearchTest"
+  }, {
+    "name" : "tag",
+    "value" : "TC-1"
+  }, {
+    "name" : "owner",
+    "value" : "Leonid M"
+  }, {
+    "name" : "suite",
+    "value" : "PassedSuite"
+  }, {
+    "name" : "subSuite",
+    "value" : "Simple"
+  }, {
+    "name" : "subSuite",
+    "value" : "Simple SearchTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Leonid M",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "TC-1" ]
+  },
+  "source" : "c5e02d2944f94b14.json",
+  "parameterValues" : [ ]
+}
