@@ -30,7 +30,7 @@ jobs:
       if: always()
       with:
         name: allure-results
-        path: ./allure-results
+        path: ./DemoProject/allure-results
   deploy:
     runs-on: atools/chrome-headless 
 
