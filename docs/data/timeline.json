@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az132-515",
+    "children" : [ {
+      "name" : "NonParallelWorker",
+      "children" : [ {
+        "name" : "Firefox1",
+        "uid" : "a56beab82e405062",
+        "parentUid" : "78ec8a20228977c118c335c1e50cf70c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636383496278,
+          "stop" : 1636383505028,
+          "duration" : 8750
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "78ec8a20228977c118c335c1e50cf70c"
+    } ],
+    "uid" : "8136985ab4e40ce17dd5cbfd0652801f"
+  } ],
+  "name" : "timeline"
+}

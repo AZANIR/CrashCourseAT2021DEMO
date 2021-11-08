@@ -1,0 +1,11 @@
+[ {
+  "uid" : "a56beab82e405062",
+  "name" : "Firefox1",
+  "time" : {
+    "start" : 1636383496278,
+    "stop" : 1636383505028,
+    "duration" : 8750
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
