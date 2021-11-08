@@ -54,7 +54,6 @@ jobs:
     - name: Display structure of backup history files
       if: always()
       run: ls -R
-      working-directory: allure-report/backupHistory
     - name: Upload artifact allure-report
       uses: actions/upload-artifact@v1
       if: always()
