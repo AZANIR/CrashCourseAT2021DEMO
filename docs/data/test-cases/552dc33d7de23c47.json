@@ -1,0 +1,94 @@
+{
+  "uid" : "552dc33d7de23c47",
+  "name" : "SearchExecute",
+  "fullName" : "CrashCourse2021.SimpleSearchTest.SearchExecute",
+  "historyId" : "CrashCourse2021.SimpleSearchTest.SearchExecute",
+  "time" : {
+    "start" : 1636404786703,
+    "stop" : 1636404788210,
+    "duration" : 1507
+  },
+  "description" : "Search execute\n",
+  "descriptionHtml" : "<p>Search execute</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Search execute\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "SearchExecute",
+      "time" : {
+        "start" : 1636404786703,
+        "stop" : 1636404788210,
+        "duration" : 1507
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5b9868099472f75c",
+        "name" : "Console Output",
+        "source" : "5b9868099472f75c.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az190-816"
+  }, {
+    "name" : "testClass",
+    "value" : "CrashCourse2021.SimpleSearchTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "SearchExecute"
+  }, {
+    "name" : "package",
+    "value" : "CrashCourse2021.SimpleSearchTest"
+  }, {
+    "name" : "tag",
+    "value" : "TC-2"
+  }, {
+    "name" : "owner",
+    "value" : "Leonid M"
+  }, {
+    "name" : "suite",
+    "value" : "PassedSuite"
+  }, {
+    "name" : "subSuite",
+    "value" : "Simple"
+  }, {
+    "name" : "subSuite",
+    "value" : "Simple SearchTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "TC-2" ]
+  },
+  "source" : "552dc33d7de23c47.json",
+  "parameterValues" : [ ]
+}

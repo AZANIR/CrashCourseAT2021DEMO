@@ -1,0 +1,156 @@
+{
+  "uid" : "e26a70b18c15b08b",
+  "name" : "SearchExecute",
+  "fullName" : "CrashCourse2021.SimpleSearchTest.SearchExecute",
+  "historyId" : "CrashCourse2021.SimpleSearchTest.SearchExecute",
+  "time" : {
+    "start" : 1636405654889,
+    "stop" : 1636405656473,
+    "duration" : 1584
+  },
+  "description" : "Search execute\n",
+  "descriptionHtml" : "<p>Search execute</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Search execute\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "SearchExecute",
+      "time" : {
+        "start" : 1636405654889,
+        "stop" : 1636405656473,
+        "duration" : 1584
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d04423df173aaef",
+        "name" : "Console Output",
+        "source" : "5d04423df173aaef.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az275-342"
+  }, {
+    "name" : "testClass",
+    "value" : "CrashCourse2021.SimpleSearchTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "SearchExecute"
+  }, {
+    "name" : "package",
+    "value" : "CrashCourse2021.SimpleSearchTest"
+  }, {
+    "name" : "tag",
+    "value" : "TC-2"
+  }, {
+    "name" : "owner",
+    "value" : "Leonid M"
+  }, {
+    "name" : "suite",
+    "value" : "PassedSuite"
+  }, {
+    "name" : "subSuite",
+    "value" : "Simple"
+  }, {
+    "name" : "subSuite",
+    "value" : "Simple SearchTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Leonid M",
+    "retries" : [ {
+      "uid" : "306bb69abe4270e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636405479701,
+        "stop" : 1636405480961,
+        "duration" : 1260
+      }
+    }, {
+      "uid" : "552dc33d7de23c47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636404786703,
+        "stop" : 1636404788210,
+        "duration" : 1507
+      }
+    }, {
+      "uid" : "6923895b53e77134",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636404494086,
+        "stop" : 1636404495357,
+        "duration" : 1271
+      }
+    }, {
+      "uid" : "a9728dba6a5c0767",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636404093600,
+        "stop" : 1636404095065,
+        "duration" : 1465
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "8c74e121606d13be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636405479701,
+          "stop" : 1636405480961,
+          "duration" : 1260
+        }
+      }, {
+        "uid" : "200c7b5921942705",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636404786703,
+          "stop" : 1636404788210,
+          "duration" : 1507
+        }
+      } ]
+    },
+    "tags" : [ "TC-2" ]
+  },
+  "source" : "e26a70b18c15b08b.json",
+  "parameterValues" : [ ]
+}

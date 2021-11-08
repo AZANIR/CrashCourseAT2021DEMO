@@ -1,0 +1,84 @@
+{
+  "uuid": "3a97dd77-d1bf-4a5a-81bd-c247deb3ff36-tr-0-1001",
+  "historyId": "CrashCourse2021.SimpleSearchTest.SearchDefault",
+  "fullName": "CrashCourse2021.SimpleSearchTest.SearchDefault",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az275-342"
+    },
+    {
+      "name": "testClass",
+      "value": "CrashCourse2021.SimpleSearchTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "SearchDefault"
+    },
+    {
+      "name": "package",
+      "value": "CrashCourse2021.SimpleSearchTest"
+    },
+    {
+      "name": "tag",
+      "value": "TC-1"
+    },
+    {
+      "name": "owner",
+      "value": "Leonid M"
+    },
+    {
+      "name": "suite",
+      "value": "PassedSuite"
+    },
+    {
+      "name": "subSuite",
+      "value": "Simple"
+    },
+    {
+      "name": "subSuite",
+      "value": "Simple SearchTest"
+    }
+  ],
+  "links": [],
+  "name": "SearchDefault",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "Search defaults\n",
+  "steps": [
+    {
+      "name": "SearchDefault",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3da762784c8d48538952cbfca0b44990-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1636405647491,
+      "stop": 1636405654821
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1636405647489,
+  "stop": 1636405654826
+}
