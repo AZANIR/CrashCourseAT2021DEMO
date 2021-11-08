@@ -1,10 +1,20 @@
 [ {
-  "uid" : "a56beab82e405062",
-  "name" : "Firefox1",
+  "uid" : "5c4a4be86a60ed3",
+  "name" : "SearchDefault",
   "time" : {
-    "start" : 1636383496278,
-    "stop" : 1636383505028,
-    "duration" : 8750
+    "start" : 1636387088299,
+    "stop" : 1636387096421,
+    "duration" : 8122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e566c8ae1d67498f",
+  "name" : "SearchExecute",
+  "time" : {
+    "start" : 1636387096487,
+    "stop" : 1636387099165,
+    "duration" : 2678
   },
   "status" : "passed",
   "severity" : "normal"
