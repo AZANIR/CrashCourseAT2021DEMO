@@ -23,6 +23,8 @@ jobs:
       run: dotnet build --configuration Release --no-restore
     - name: Test
       run: dotnet test --no-restore --verbosity normal
+    - name: Display structure
+      run: ls -R
     - name: Upload artifact allure-results
       uses: actions/upload-artifact@v1
       if: always()
