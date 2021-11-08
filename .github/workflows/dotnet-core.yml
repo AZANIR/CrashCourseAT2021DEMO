@@ -23,21 +23,21 @@ jobs:
       run: dotnet build --configuration Release --no-restore
     - name: Test
       run: dotnet test --no-restore --verbosity normal
-    - name: Create Report
-      if: always()
-      # trying to save history of previous runs if it is exists
-      run: allure-cmd/bin/allure generate allure-results --clean
-    - name: Upload artifact allure-report
+    - name: Upload artifact allure-results
       uses: actions/upload-artifact@v1
       if: always()
       with:
-        name: allure-report
-        path: ./allure-report
-    - name: Deploy report
-      uses: JamesIves/github-pages-deploy-action@3.1.0
-      if: always()
+        name: allure-results
+        path: ./allure-results
+  deploy:
+    runs-on: atools/chrome-headless 
+      # trying to install npm packages
+    - run: npm i -g npm@latest
+    - run: npm i npm@latest
+    - run: npm allure-commandline@latest
+    - uses: actions/checkout@v2
+    - uses: actions/download-artifact@v2
       with:
-        ACCESS_TOKEN: ${{'secrets.ACCESS_TOKEN'}}
-        BRANCH: master # The branch the action should deploy to.
-        FOLDER: allure-report # The folder the action should deploy.
-        TARGET_FOLDER: docs
+        name: my-artifact
+    - name: Display structure of downloaded files
+      run: ls -R
