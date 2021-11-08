@@ -37,7 +37,7 @@ jobs:
       run: dotnet test --no-restore --verbosity normal
     - name: Create Report
       if: always()
-      # trying to save history of previous runs if it is exists 
+      # trying to save history of previous runs if it is exists
       
       run: npx allure generate ./DemoProject/allure-results --clean
     - name: Display structure
