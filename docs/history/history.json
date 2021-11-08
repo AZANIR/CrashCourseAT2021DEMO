@@ -1,0 +1,21 @@
+{
+  "RvCrashCourse2021.Browsers.Firefox1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a56beab82e405062",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636383496278,
+        "stop" : 1636383505028,
+        "duration" : 8750
+      }
+    } ]
+  }
+}
