@@ -38,7 +38,7 @@ jobs:
     - name: Copy backupHistory
       if: always()
       # trying to save history screens and info of previous runs if it is exists
-      run: cp -r $(pwd)/docs/backupHistory/. $(pwd)/allure-results
+      run: cp -r ./docs/backupHistory/. ./allure-results
     - name: Create Report
       if: always()
       # trying to save history of previous runs if it is exists
@@ -50,7 +50,7 @@ jobs:
     - name: Backup history tests
       if: always()
       # trying to backup screens and info test
-      run: cp -r $(pwd)/allure-results/*.* $(pwd)/allure-report/backupHistory
+      run: cp -r ./DemoProject/allure-results/*.* ./allure-report/backupHistory
     - name: Display structure of backup history files
       if: always()
       run: ls -R
