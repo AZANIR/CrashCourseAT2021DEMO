@@ -1,5 +1,39 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
-  "name" : "categories"
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "OpenQA.Selenium.WebDriverException : unknown error: Chrome failed to start: crashed.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+      "children" : [ {
+        "name" : "SearchDefault",
+        "uid" : "6481c29812200f4a",
+        "parentUid" : "b8e0d3fd8bb36f31a4b0b2227765bd1b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1636399420736,
+          "stop" : 1636399425133,
+          "duration" : 4397
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "SearchExecute",
+        "uid" : "91d09298bf8a3bd1",
+        "parentUid" : "b8e0d3fd8bb36f31a4b0b2227765bd1b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1636399425187,
+          "stop" : 1636399425607,
+          "duration" : 420
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b8e0d3fd8bb36f31a4b0b2227765bd1b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

@@ -1,21 +1,21 @@
 [ {
-  "uid" : "51388c5b724854d3",
-  "name" : "SearchExecute",
-  "time" : {
-    "start" : 1636392625033,
-    "stop" : 1636392627376,
-    "duration" : 2343
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "315f2c1f2297769c",
+  "uid" : "6481c29812200f4a",
   "name" : "SearchDefault",
   "time" : {
-    "start" : 1636392621719,
-    "stop" : 1636392624975,
-    "duration" : 3256
+    "start" : 1636399420736,
+    "stop" : 1636399425133,
+    "duration" : 4397
   },
-  "status" : "passed",
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "91d09298bf8a3bd1",
+  "name" : "SearchExecute",
+  "time" : {
+    "start" : 1636399425187,
+    "stop" : 1636399425607,
+    "duration" : 420
+  },
+  "status" : "failed",
   "severity" : "normal"
 } ]
