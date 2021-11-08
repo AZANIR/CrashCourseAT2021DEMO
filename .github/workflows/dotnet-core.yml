@@ -51,9 +51,6 @@ jobs:
       if: always()
       # trying to backup screens and info test
       run: cp -r ./DemoProject/allure-results/*.* ./allure-report/backupHistory
-    - name: Display structure of backup history files
-      if: always()
-      run: ls -R
     - name: Upload artifact allure-report
       uses: actions/upload-artifact@v1
       if: always()
