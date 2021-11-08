@@ -40,6 +40,7 @@ jobs:
       # trying to save history of previous runs if it is exists
       
       run: npx allure generate ./DemoProject/allure-results --clean
+      run: ls -R
     - name: Upload artifact allure-report
       uses: actions/upload-artifact@v1
       if: always()
