@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "h1md/JEzzfAMa16G/2R2J7w0gMjBv4I4uFleV8oy6PZv4PXrBPqh6vC2amTUZ5kpzWdgDQcENfUQclza2/BQLQ==",
+  "success": true,
+  "projectFilePath": "d:\\QA_Automation\\CrashCourseAT2021DEMO\\DemoProject\\DemoProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AZANIR\\.nuget\\packages\\allure.commons\\3.1.0.6\\allure.commons.3.1.0.6.nupkg.sha512",
+    "C:\\Users\\AZANIR\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
+    "C:\\Users\\AZANIR\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
+    "C:\\Users\\AZANIR\\.nuget\\packages\\mimetypesmap\\1.0.8\\mimetypesmap.1.0.8.nupkg.sha512",
+    "C:\\Users\\AZANIR\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\AZANIR\\.nuget\\packages\\nlog\\4.3.11\\nlog.4.3.11.nupkg.sha512",
+    "C:\\Users\\AZANIR\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
+    "C:\\Users\\AZANIR\\.nuget\\packages\\nunit.allure\\1.0.11\\nunit.allure.1.0.11.nupkg.sha512",
+    "C:\\Users\\AZANIR\\.nuget\\packages\\nunit3testadapter\\3.16.1\\nunit3testadapter.3.16.1.nupkg.sha512",
+    "C:\\Users\\AZANIR\\.nuget\\packages\\restsharp\\105.2.3\\restsharp.105.2.3.nupkg.sha512",
+    "C:\\Users\\AZANIR\\.nuget\\packages\\selenium.webdriver\\4.0.1\\selenium.webdriver.4.0.1.nupkg.sha512",
+    "C:\\Users\\AZANIR\\.nuget\\packages\\selenium.webdriver.chromedriver\\95.0.4638.5401\\selenium.webdriver.chromedriver.95.0.4638.5401.nupkg.sha512",
+    "C:\\Users\\AZANIR\\.nuget\\packages\\selenium.webdriver.geckodriver\\0.30.0.1\\selenium.webdriver.geckodriver.0.30.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

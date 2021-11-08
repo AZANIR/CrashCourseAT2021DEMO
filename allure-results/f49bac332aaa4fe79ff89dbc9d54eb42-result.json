@@ -1,0 +1,99 @@
+{
+  "uuid": "92843380-b272-4124-bba2-0b2461a479ac-tr-0-1003",
+  "historyId": "RvCrashCourse2021.Browsers.Firefox1",
+  "fullName": "RvCrashCourse2021.Browsers.Firefox1",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AZANIR_L5"
+    },
+    {
+      "name": "testClass",
+      "value": "RvCrashCourse2021.Browsers"
+    },
+    {
+      "name": "testMethod",
+      "value": "Firefox1"
+    },
+    {
+      "name": "package",
+      "value": "RvCrashCourse2021.Browsers"
+    },
+    {
+      "name": "tag",
+      "value": "TC-1"
+    },
+    {
+      "name": "owner",
+      "value": "unickq"
+    },
+    {
+      "name": "suite",
+      "value": "PassedSuite"
+    },
+    {
+      "name": "subSuite",
+      "value": "NoAssert"
+    },
+    {
+      "name": "subSuite",
+      "value": "Simple"
+    },
+    {
+      "name": "subSuite",
+      "value": "AllureReportTypeSamples"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    },
+    {
+      "name": "TMS-12",
+      "url": "TMS-12",
+      "type": "tms"
+    }
+  ],
+  "name": "Firefox1",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "Firefox1\n",
+  "steps": [
+    {
+      "name": "Firefox1",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c7af2a91739044a7928fd7750751f4ee-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1636379373682,
+      "stop": 1636379376623
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1636379373682,
+  "stop": 1636379376630
+}

@@ -230,6 +230,20 @@ namespace DemoProject.Utils
             Driver.Navigate().Refresh();
         }
 
+        public void ImplicitWaitSeconds(int seconds)
+        {
+            Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+        }
+
+        public IWebElement FindElementByClassName(By ClassName)
+        {
+            return Driver.FindElement(ClassName);
+        }
+        public IWebElement FindElementByXpath(By XpathName)
+        {
+            return Driver.FindElement(XpathName);
+        }
+
         public void Quit()
         {
             if (Driver != null)
