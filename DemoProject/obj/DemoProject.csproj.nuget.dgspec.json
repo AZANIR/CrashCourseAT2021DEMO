@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\QA_Automation\\CrashCourseAT2021DEMO\\DemoProject\\DemoProject.csproj": {}
+    "D:\\QA_Automation\\CrashCourseAT2021DEMO\\DemoProject\\DemoProject.csproj": {}
   },
   "projects": {
-    "d:\\QA_Automation\\CrashCourseAT2021DEMO\\DemoProject\\DemoProject.csproj": {
+    "D:\\QA_Automation\\CrashCourseAT2021DEMO\\DemoProject\\DemoProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\QA_Automation\\CrashCourseAT2021DEMO\\DemoProject\\DemoProject.csproj",
+        "projectUniqueName": "D:\\QA_Automation\\CrashCourseAT2021DEMO\\DemoProject\\DemoProject.csproj",
         "projectName": "DemoProject",
-        "projectPath": "d:\\QA_Automation\\CrashCourseAT2021DEMO\\DemoProject\\DemoProject.csproj",
+        "projectPath": "D:\\QA_Automation\\CrashCourseAT2021DEMO\\DemoProject\\DemoProject.csproj",
         "packagesPath": "C:\\Users\\AZANIR\\.nuget\\packages\\",
-        "outputPath": "d:\\QA_Automation\\CrashCourseAT2021DEMO\\DemoProject\\obj\\",
+        "outputPath": "D:\\QA_Automation\\CrashCourseAT2021DEMO\\DemoProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AZANIR\\AppData\\Roaming\\NuGet\\NuGet.Config",

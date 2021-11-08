@@ -235,15 +235,27 @@ namespace DemoProject.Utils
             Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
         }
 
-        public IWebElement FindElementByClassName(By ClassName)
+        public IWebElement FindElementByClassName(By selector)
         {
-            return Driver.FindElement(ClassName);
+            return Driver.FindElement(selector);
         }
-        public IWebElement FindElementByXpath(By XpathName)
+        public IWebElement FindElementByXpath(By selector)
         {
-            return Driver.FindElement(XpathName);
+            return Driver.FindElement(selector);
+        }
+        public bool IsElementDisplayed(By selector)
+        {
+            return Driver.FindElement(selector).Displayed;
+        }
+        public void ClickElement(By selector)
+        {
+            Driver.FindElement(selector).Click();
         }
 
+        public string GetTextElement(By selector)
+        {
+            return Driver.FindElement(selector).Text;
+        }
         public void Quit()
         {
             if (Driver != null)
@@ -252,5 +264,6 @@ namespace DemoProject.Utils
                 Driver = null;
             }
         }
+
     }
 }

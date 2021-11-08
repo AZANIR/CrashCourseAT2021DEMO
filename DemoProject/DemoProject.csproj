@@ -21,10 +21,8 @@
   <ItemGroup>
     <Folder Include="allure-results\" />
     <Folder Include="allure-report\" />
-    <Folder Include="Tests\" />
     <Folder Include="Pages\" />
     <Folder Include="Tests\TestsAPI\" />
-    <Folder Include="Tests\TestsUI\" />
   </ItemGroup>
 
 </Project>
