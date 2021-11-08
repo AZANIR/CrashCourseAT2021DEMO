@@ -22,7 +22,6 @@
     <Folder Include="allure-results\" />
     <Folder Include="allure-report\" />
     <Folder Include="Pages\" />
-    <Folder Include="Tests\TestsAPI\" />
   </ItemGroup>
 
 </Project>

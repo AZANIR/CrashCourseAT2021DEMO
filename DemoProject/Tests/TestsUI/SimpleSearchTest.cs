@@ -14,7 +14,6 @@ namespace RvCrashCourse2021
     [AllureNUnit]
     [TestFixture]
     [AllureSubSuite("Simple SearchTest")]
-    [AllureLink("https://github.com/unickq/allure-nunit")]
     class SimpleSearchTest
     {
 
