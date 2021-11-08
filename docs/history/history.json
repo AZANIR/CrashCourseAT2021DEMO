@@ -1,0 +1,40 @@
+{
+  "RvCrashCourse2021.SimpleSearchTest.SearchExecute" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51388c5b724854d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636392625033,
+        "stop" : 1636392627376,
+        "duration" : 2343
+      }
+    } ]
+  },
+  "RvCrashCourse2021.SimpleSearchTest.SearchDefault" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "315f2c1f2297769c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636392621719,
+        "stop" : 1636392624975,
+        "duration" : 3256
+      }
+    } ]
+  }
+}
