@@ -20,8 +20,8 @@ namespace CrashCourse2021
         [AllureSubSuite("Simple")]
         public void SearchDefault()
         {
-            //ApplicationSource aplicationsSpurce = new ApplicationSource(ApplicationSourceRepository.CHROME_TEMPORARY_WITHOUT_UI, 10L, 10L);
-            ApplicationSource aplicationsSpurce = new ApplicationSource(ApplicationSourceRepository.CHROME_TEMPORARY_WHITH_UI, 10L, 10L);
+            ApplicationSource aplicationsSpurce = new ApplicationSource(ApplicationSourceRepository.CHROME_TEMPORARY_WITHOUT_UI, 10L, 10L);
+            //ApplicationSource aplicationsSpurce = new ApplicationSource(ApplicationSourceRepository.CHROME_TEMPORARY_WHITH_UI, 10L, 10L);
             BrowserWrap _driver = new BrowserWrap(aplicationsSpurce);
             _driver.OpenUrl(_url);
             Assert.AreEqual(_driver.IsElementDisplayed(_searchInput), true, "Input search is not displayed");
@@ -37,8 +37,8 @@ namespace CrashCourse2021
         [AllureSubSuite("Simple")]
         public void SearchExecute()
         {
-            //ApplicationSource aplicationsSpurce = new ApplicationSource(ApplicationSourceRepository.CHROME_TEMPORARY_WITHOUT_UI, 10L, 10L);
-            ApplicationSource aplicationsSpurce = new ApplicationSource(ApplicationSourceRepository.CHROME_TEMPORARY_WHITH_UI, 10L, 10L);
+            ApplicationSource aplicationsSpurce = new ApplicationSource(ApplicationSourceRepository.CHROME_TEMPORARY_WITHOUT_UI, 10L, 10L);
+            //ApplicationSource aplicationsSpurce = new ApplicationSource(ApplicationSourceRepository.CHROME_TEMPORARY_WHITH_UI, 10L, 10L);
             BrowserWrap _driver = new BrowserWrap(aplicationsSpurce);
             _driver.OpenUrl(_url);
             _driver.FindElementByClassName(_searchInput).SendKeys("iPhone");
