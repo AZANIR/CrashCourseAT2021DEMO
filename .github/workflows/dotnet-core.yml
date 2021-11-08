@@ -38,11 +38,11 @@ jobs:
     - name: Copy backupHistory
       if: always()
       # trying to save history screens and info of previous runs if it is exists
-      run: cp -r ./docs/backupHistory/*.* ./allure-results
+      run: cp -r ./docs/backupHistory/*.* ./DemoProject/allure-results
     - name: Create Report
       if: always()
       # trying to save history of previous runs if it is exists 
-      run: cp -r ./docs/history/*.* ./allure-results/history && npx allure generate ./DemoProject/allure-results --clean
+      run: cp -r ./docs/history/*.* ./DemoProject/allure-results/history && npx allure generate ./DemoProject/allure-results --clean
     - name: Create bacup directory
       if: always()
       # trying to create backup directory
