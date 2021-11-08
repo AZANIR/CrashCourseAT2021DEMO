@@ -1,1 +1,21 @@
-[ ]
+[ {
+  "uid" : "385db4366c46aea0",
+  "name" : "SearchDefault",
+  "time" : {
+    "start" : 1636404491422,
+    "stop" : 1636404494040,
+    "duration" : 2618
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88ec699c4ed31318",
+  "name" : "SearchExecute",
+  "time" : {
+    "start" : 1636404494086,
+    "stop" : 1636404495357,
+    "duration" : 1271
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
